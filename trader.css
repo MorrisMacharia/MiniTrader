@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+body {
+  font-style: Inter;
+}
+.landing {
+  background-image: url(Images/BGxyz.png);
+  height: 110vh;
+  background-size: cover;
+  background-position: center;
+}
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 80px;
+}
+.worlds {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: left;
+  color: antiquewhite;
+}
+.wealth {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  color: antiquewhite;
+}
+.words {
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 100px;
+}
+.land2 {
+  background-image: url(Images/abt1.png);
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+  background-color: #2b2e39;
+  opacity: 0.85;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.mini {
+  font-weight: 100;
+}
+.txt1 {
+  color: antiquewhite;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.txt2 {
+  color: antiquewhite;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.txt3 {
+  color: antiquewhite;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.txt4 {
+  color: antiquewhite;
+  align-items: center;
+  align-content: center;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+@media screen and (max-width: 768px) {
+  .landing {
+    background-image: url(Images/Vectors.png);
+    height: 60vh;
+  }
+  .words {
+    background-image: url(Images/Vectors.png);
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 0;
+  }
+  .worlds {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .wealth {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .land2 {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .txt1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .content1 {
+    background-image: url(Images/mobilemesh.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #2b2e39;
+    opacity: 0.99;
+  }
+  .txt2 {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .txt3 {
+    font-family: Inter;
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

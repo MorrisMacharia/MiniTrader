@@ -11,6 +11,9 @@ body {
   height: 110vh;
   background-size: cover;
   background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .bar {
   display: flex;
@@ -29,7 +32,7 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   color: antiquewhite;
 }
 .words {
@@ -106,10 +109,18 @@ body {
 @media screen and (max-width: 768px) {
   .landing {
     background-image: url(Images/Vectors.png);
-    height: 60vh;
+    height: auto;
+
+  }
+  .bar{
+    display: flex;
+    height: 50px;
   }
   .words {
-    background-image: url(Images/Vectors.png);
+    /* position: relative; */
+    /* background-image: url(Images/HBGG\ 1.png); */
+    /* background-image: url(Images/Vectors.png); */
+background-color: #2b2e39;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -138,6 +149,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 7px;
+    height: auto;
   }
   .txt1 {
     font-family: Inter;

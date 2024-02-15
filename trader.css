@@ -50,32 +50,32 @@ body {
 }
 .go {
   color: #f2eff7;
-  background-color: #7933FF;
+  background-color: #7933ff;
   width: 150px;
   height: 40px;
   border: none;
   border-radius: 12px;
 }
-.go:hover{
-    color: aquamarine;
-    background-color: black;
-    transition-duration: 0.5sec;
-    cursor: grab;
+.go:hover {
+  color: aquamarine;
+  background-color: black;
+  transition-duration: 0.5sec;
+  cursor: grab;
 }
-.wallet{
-    background: #7933FF;
-color: antiquewhite;
-height: 40px;
-width: 70px;
-border: none;
-border-radius: 12px;
-justify-content: space-between;
+.wallet {
+  background: #7933ff;
+  color: antiquewhite;
+  height: 40px;
+  width: 70px;
+  border: none;
+  border-radius: 12px;
+  justify-content: space-between;
 }
-.wallet:hover{
-    color: aquamarine;
-    background-color: black;
-    transition-duration: 0.5sec;
-    cursor: grab;
+.wallet:hover {
+  color: aquamarine;
+  background-color: black;
+  transition-duration: 0.5sec;
+  cursor: grab;
 }
 .land2 {
   background-image: url(Images/abt1.png);
@@ -141,18 +141,226 @@ justify-content: space-between;
   padding-left: 40px;
   padding-right: 40px;
 }
-.comp2{
-    display: none;
+.comp2 {
+  display: none;
+}
+.sector5 {
+  background-image: url(Images/bgpro5.svg);
+  height: auto;
+  /* width: auto; */
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 60px;
+}
+.chess2 {
+  display: none;
+}
+.group11 {
+  display: none;
+}
+.mond {
+  display: none;
+}
+.group12{
+  display: none;
+}
+.rect2 {
+  display: none;
+}
+.use {
+  display: none;
+}
+.area1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.start {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: antiquewhite;
+  font-family: Inter;
+  text-align: left;
+  width: 700px;
+  height: 200px;
+  /* background-color: aquamarine; */
+}
+.get {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.passive {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.area2 {
+  display: flex;
+  justify-content: space-around;
+}
+.risk {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 180px;
+}
+.rissk2 {
+  display: none;
+}
+.risky {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.pln {
+  font-family: Inter;
+  font-size: 15pxpx;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.area3 {
+  display: flex;
+  justify-content: space-around;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 180px;
+}
+.select {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.model {
+  font-family: Inter;
+  font-size: 15pxpx;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.area4 {
+  display: flex;
+  justify-content: space-around;
+}
+.trading {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 180px;
+}
+.mode {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.pro {
+  font-family: Inter;
+  font-size: 15pxpx;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.area5 {
+  display: flex;
+  justify-content: space-around;
+}
+.connect {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 180px;
+}
+.you {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.after {
+  font-family: Inter;
+  font-size: 15pxpx;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.area6 {
+  display: flex;
+  justify-content: space-around;
+}
+.monitor {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 180px;
+}
+.funds {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
+}
+.graph {
+  font-family: Inter;
+  font-size: 15pxpx;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: antiquewhite;
 }
 @media screen and (max-width: 768px) {
+  .body {
+    width: 100vw;
+  }
   .landing {
-    background-image: url(Images/Vectors.png);
+    background-image: url(Images/Vector4.jpg);
     height: auto;
+    width: auto;
   }
   .bar {
     display: flex;
     justify-content: space-around;
     height: 50px;
+    width: auto;
   }
   .hamburger {
     display: flex;
@@ -213,16 +421,22 @@ justify-content: space-between;
   .txt1 {
     font-family: Inter;
     font-size: 24px;
-    font-weight: 700;
+    /* font-weight: 700; */
     line-height: 37px;
     letter-spacing: 0em;
     text-align: left;
   }
-  .comp1{
+  .comp1 {
     display: none;
   }
-  .comp2{
+  .comp2 {
     display: block;
+  }
+  .land2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
   }
   .content1 {
     background-image: url(Images/mobilemesh.png);
@@ -237,7 +451,7 @@ justify-content: space-between;
   .txt2 {
     font-family: Inter;
     font-size: 8px;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
@@ -245,8 +459,233 @@ justify-content: space-between;
   .txt3 {
     font-family: Inter;
     font-size: 8px;
-    font-weight: 600;
+    /* font-weight: 600; */
     line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .use {
+    display: contents;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .sector5 {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    background-color: #2b2e39;
+    height: 100%;
+  }
+  .grp1 {
+    display: none;
+  }
+  .rissk {
+    display: none;
+  }
+  .rect {
+    display: none;
+  }
+  .rect2 {
+    display: block;
+  }
+  .chess {
+    display: none;
+  }
+  .group1 {
+    display: none;
+  }
+  .monitor2 {
+    display: none;
+  }
+  .group11 {
+    display: block;
+  }
+  .rissk2 {
+    display: block;
+  }
+  .chess2 {
+    display: block;
+  }
+  .group12 {
+    display: block;
+  }
+  .mond {
+    display: block;
+  }
+  .area1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+    align-content: center;
+  }
+  .use {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: antiquewhite;
+  }
+  .start {
+    width: 300px;
+  }
+  .get {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .passive {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .area2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+    align-content: center;
+  }
+
+  .risk {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    }
+  .risky {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .pln {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .area3 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+    align-content: center;
+  }
+  .time {
+    width: 300px;
+  }
+  .select {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .model {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .area4 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+    align-content: center;
+  }
+  .trading {
+    width: 300px;
+  }
+  .chess {
+    width: 410px;
+  }
+  .mode {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .pro {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .area5 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+    align-content: center;
+  }
+  .connect {
+    width: 300px;
+  }
+
+  .you {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .after {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .area6 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+    align-content: center;
+  }
+  .monitor {
+    width: 370px;
+  }
+  .funds {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .graph {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
   }
